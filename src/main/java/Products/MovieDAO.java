@@ -11,7 +11,7 @@ public class MovieDAO {
     public  String createTable() {
 
         try {
-            MovieRepository.createTable();
+            movieRepository.createTable();
             return "Table created successfully";
         } catch (SQLException e) {
             e.printStackTrace();
@@ -26,7 +26,7 @@ public class MovieDAO {
     public  String deleteTable() {
 
         try {
-            MovieRepository.deleteTable();
+            movieRepository.deleteTable();
             return "Table deleted successfully";
         } catch (SQLException e) {
             e.printStackTrace();
