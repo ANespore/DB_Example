@@ -1,7 +1,4 @@
-import Products.MovieDAO;
-import Products.Product;
-import Products.ProductController;
-import Products.ProductRepository;
+import Products.*;
 
 import java.util.Scanner;
 
@@ -25,9 +22,19 @@ public class Main   {
 
         // productController.deleteProduct(id);
 
+//--------------------------------------------------------------------------------------------------------------------------------------
+       //MovieDAO.createTable();
+       // MovieDAO.deleteTable();
 
-      // MovieDAO.createTable();
-        MovieDAO.deleteTable();
+        //System.out.println(MovieDAO.createMovie(new Movie("HorrorMovie","Horror",2010)));
+              //  MovieDAO.deleteMovie(1);
+        //System.out.println(MovieDAO.updateMoviesTitle(3,"LoveMovie"));
+
+       // System.out.println(MovieDAO.findMovieById(3));
+
+
+      //  System.out.println(MovieDAO.findAll());
+
     }
 
     }
