@@ -69,7 +69,7 @@ public class MovieDAO {
         try {
 
             movieRepository.updateMoviesTitle(id,newTitle);
-          return  "Movie title updated successfully";
+            return  "Movie title updated successfully";
         } catch (SQLException e) {
             System.out.println(e);
             return  "Can't update movie title";

@@ -11,7 +11,7 @@ public class DBHandler {
     String ConnectionUrl = "jdbc:mysql://127.0.0.1:3306/shop";
 
     String user = "root";
-    String pass = "";
+    String pass = "prasTuf8";
 
 
    private static  Connection connection;
